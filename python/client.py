@@ -46,7 +46,6 @@ class Game:
         # define game variables
         self.ROW_LABELS = ['1', '2', '3']
         self.COLUMN_LABELS = ['a', 'b', 'c']
-        self.game_active = True
 
         """
         make the board

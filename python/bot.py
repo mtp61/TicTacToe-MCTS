@@ -34,7 +34,7 @@ class Bot():
             current_node = root
             node_chain = [current_node]
             
-            # for dfs in main loop
+            # for dfs in choosing a node
             visited = set([root])
             
             while current_node.num_visits > 0 or current_node == root:                
@@ -139,7 +139,6 @@ class Node():
         self.simulation_outcomes = {
             1: 0, 2: 0, -1: 0
         }
-
 
         # needed for drawing tree
         self.id = id
